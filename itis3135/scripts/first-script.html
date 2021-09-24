@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link href="styles/website_styles.css" rel="stylesheet" type="text/css">-->
+    <title>Shashank Mondrati>> ITIS-3135>> First JavaScript</title>
+    <h1 style="text-align: center; font-family: Monsterra; color: rgb(118, 68, 236);">Shashank Mondrati ITIS-3135 First
+        JavaScript</h1>
+</head>
+
+<style>
+    html {
+        background-image: linear-gradient(45deg, blue, white);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+    }
+
+    button:hover {
+        text-align: center !important;
+        color: blueviolet;
+
+    }
+
+    hr {
+        line-height: 1.4px;
+        color: beige;
+    }
+</style>
+<button onclick="askUser()" style="border-radius: 45%;">Tap ME!</button>
+<button onclick="askHow()" style="border-radius: 3pt;">Ask for User</button>
+<button onclick="funny()" style="border-radius: 4px;">Provide an Insult</button>
+<button onclick="addition()" style="border-radius: 12pc;">+Add two numbers +</button>
+<button onclick="tax()" style="border-radius: 12em;">Calculate the Tax </button>
+<p id="name"></p>
+<p id="health"></p>
+<p id="insult"></p>
+<p id="add"></p>
+<p id="tax"></p>
+<hr>
+<script>
+    alert("This program is working correctly");
+
+    function askUser() {
+        var name = prompt("Enter your Name:", "");
+        if (name != null) {
+            document.getElementById("name").innerHTML = "Hello " + name + "!"
+        }
+
+    }
+    function askHow() {
+        var user = prompt("How are you doing today? ", "");
+        if (user != null) {
+            document.getElementById("health").innerHTML = "", alert("It's good that you've been" + user);
+        }
+    }
+    function funny() {
+        document.getElementById("insult").innerHTML = "Psych...Fooled you! XD ", alert("If I throw a stick will you leave?");
+    }
+    function addition() {
+        var num1 = Number(prompt("Enter a number: "));
+        var num2 = Number(prompt("Enter another number: "))
+        if (num1 != null && num2 != null) {
+            document.getElementById("add").innerHTML = "Numbers added: " + (num1 + num2), alert("Your number is: " + (num1 + num2));
+        }
+
+    }
+    function tax() {
+        var salesTax = 6.25 / 100;
+        alert("Calculating Sales Tax");
+        var askTax = Number(prompt("Enter an item or service cost: "));
+        var cTax = askTax * salesTax;
+        if (askTax != null) {
+            document.getElementById("tax").innerHTML = "Tax Calculated is: $ " + (cTax), alert("Tax is: $ " + cTax);
+
+        }
+    }
+</script>
+<br>
+
+<p>
+
+
+</p>
+<br>
+
+<footer>
+
+    <a href="http://webpages.uncc.edu/smondrat/" target="_blank">Charlotte</a> &#9553;
+    <a href="https://github.com/smondrat14" target="_blank">MyGithub</a> &#9553;
+    <a href="https://smondrat14.github.io/" target="_blank">My_Github.io</a> &#9553;
+    <a href="https://smondrat14.github.io/itis3135/" target="_blank">My ITIS 3135 Github Pages</a> &#9553;
+    <a href="https://www.freecodecamp.org/shashankmondrati" target="_blank">MyfreeCodeCamp</a> &#9553;
+    <a href="https://webpages.uncc.edu/smondrat/itis3135/website_evaluations.html">Website Eval</a>&#9553;
+</footer>
