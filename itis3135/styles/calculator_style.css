@@ -23,9 +23,9 @@ body {
 .calculator-grid>button {
     cursor: pointer;
     font-size: 2rem;
-    border: 1px, solid #FFFFFF;
+    border: 1px, solid;
     outline: none;
-    background-color: rbga(255, 255, 255, 0.75);
+    background-color: rbga(255, 255, 255, 1);
 }
 
 .calculator-grid>button:hover {
@@ -65,4 +65,8 @@ h2,
 footer {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    text-align: center;
 }
