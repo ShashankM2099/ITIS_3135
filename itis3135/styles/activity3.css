@@ -1,9 +1,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-  }
-  * {box-sizing: border-box;}
-  
-  input[type=text], select, textarea {
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid rgb(30, 219, 188);
@@ -12,39 +17,43 @@ body {
     margin-top: 7px;
     margin-bottom: 16px;
     resize: vertical;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     background-color: beige;
     color: white;
     padding: 12px 22px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     background-color: #95abc7;
-  }
-  
-  .container {
+}
+
+.container {
     border-radius: 5px;
     background-color: #2fd4c7;
     padding: 20px;
-  }
-  footer{
-text-align: center;
+}
 
-  }
-  nav{
-      text-align: center;
-  }
-  h2,h2,h3{
+footer {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+h2,
+h2,
+h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-  }
-  html{
+}
 
+html {
     background-color: blanchedalmond;
-  }
+}
