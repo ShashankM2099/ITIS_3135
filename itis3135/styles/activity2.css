@@ -52,7 +52,7 @@ html {
 
 th {
     background-color: darkturquoise;
-    column-span: 3;
+    column-span: all;
     text-align: center;
     text-align: left;
     padding: 8px;
