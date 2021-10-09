@@ -11,6 +11,7 @@ h2 {
 h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
 figure {
@@ -20,14 +21,6 @@ figure {
 table th,
 td {
     border: 1px solid black
-}
-
-h3 {
-    text-align: center;
-}
-
-footer {
-    text-align: center;
 }
 
 table {
@@ -57,16 +50,11 @@ html {
     background-color: beige;
 }
 
-th {
+th,
+td {
     background-color: darkturquoise;
     column-span: 3;
     text-align: center;
-}
-
-th,
-td {
-    text-align: left;
-    padding: 8px;
 }
 
 tr:nth-child(even) {
