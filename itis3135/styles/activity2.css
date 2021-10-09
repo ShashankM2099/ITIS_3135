@@ -50,11 +50,12 @@ html {
     background-color: beige;
 }
 
-th,
-td {
+th {
     background-color: darkturquoise;
     column-span: 3;
     text-align: center;
+    text-align: left;
+    padding: 8px;
 }
 
 tr:nth-child(even) {
