@@ -21,3 +21,9 @@
         a:hover {
             color: aquamarine;
         }
+        
+        h1 {
+            text-align: center;
+            font-family: Monsterra;
+            color: rgb(118, 68, 236);
+        }
