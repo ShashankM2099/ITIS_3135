@@ -1,49 +1,66 @@
-body
-{
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: teal ;
-	background-color: silver;
-	margin-left: 70px;
-	margin-right: 70px;
+body,
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: teal;
+    background-color: white;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
 }
 
-header, footer
-{
-    color: rgb(88, 199, 44) ;
-	text-align: center;
+header,
+footer {
+    color: rgb(88, 199, 44);
+    text-align: center;
 }
 
-h1, h2, h3
-{
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	text-align: center;
-	line-height: 3px;
+h1,
+h2,
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
-a
-{
-	text-decoration: none;
-	color: rgb(38, 19, 145);
-	font-weight: italic;
+a {
+    text-decoration: none;
+    color: rgb(38, 19, 145);
+    font-weight: italic;
 }
 
-a:hover
-{
-	text-decoration: underline;
-	color: rgb(45, 196, 196);
+a:hover {
+    text-decoration: underline;
+    color: rgb(45, 196, 196);
 }
 
-figure
-{
-	text-align: center;
+figure {
+    text-align: center;
 }
 
-figcaption
-{
-	font-style: italic;
+figcaption {
+    font-style: italic;
 }
 
-nav
-{
-	text-align: center;
+nav li {
+    display: inline;
+    float: left;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a:link,
+nav a:visited {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    width: 230px;
+    background-color: indianred;
+    color: white;
+}
+
+nav a:hover {
+    background-color: grey;
+    color: white;
 }
