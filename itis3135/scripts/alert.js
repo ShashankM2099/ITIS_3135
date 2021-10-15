@@ -1,4 +1,4 @@
-alert("This program is working correctly");
+alert("You are in my domain now");
 
 function askUser() {
     var name = prompt("Enter your Name:", "");
