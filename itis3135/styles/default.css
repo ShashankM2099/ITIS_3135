@@ -24,7 +24,7 @@ h3 {
 a {
     text-decoration: none;
     color: rgb(38, 19, 145);
-    font-weight: italic;
+    font-weight: bold;
 }
 
 a:hover {
@@ -55,7 +55,7 @@ nav a:visited {
     display: block;
     text-align: center;
     padding: 10px 0;
-    width: 230px;
+    width: 190px;
     background-color: indianred;
     color: white;
 }
