@@ -3,7 +3,7 @@ alert("You are in my domain now");
 function askUser() {
     var name = prompt("Enter your Name:", "");
     if (name != null) {
-        document.get("name").innerHTML = "Hello " + name + "!"
+        document.getElementById("name").innerHTML = "Hello " + name + "!"
     }
 
 }
