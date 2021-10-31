@@ -21,7 +21,7 @@ window.onload = function() {
         }
         duration[i] = parseInt(calories);
         alert(
-            `Your updated sleep duration is ${duration[i]}hrs on ${days}`
+            `Your consumption is ${duration[i]}hrs on ${days}`
         );
         document.getElementById("duration").innerHTML = "Consumed Calories is" + calories;
         //    console.log(duration);
