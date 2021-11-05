@@ -1,0 +1,170 @@
+        header,
+        footer {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-variant: inherit;
+            color: yellowgreen;
+            text-align: center;
+        }
+        
+        html {
+            background-image: radial-gradient(red, blue);
+        }
+        
+        h1,
+        h2,
+        h3 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-stretch: normal;
+            font-weight: 100;
+            font-style: inherit;
+            text-align: center !important;
+        }
+        
+        image {
+            border-radius: 50%;
+            text-align: center;
+        }
+        
+        a {
+            text-align: center;
+            color: aqua;
+        }
+        
+        a:hover {
+            color: hotpink;
+        }
+        
+        li,
+        p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: aqua;
+        }
+        
+        div {
+            text-align: center;
+        }
+        
+        table th,
+        td {
+            border: 3px solid black
+        }
+        
+        table {
+            width: 100%;
+            border: 1px solid yellowgreen;
+            text-align: center;
+        }
+        
+        th {
+            font-style: italic;
+            background-color: aqua;
+        }
+        
+        td {
+            text-align: left;
+            padding: 8px;
+        }
+        
+        input[type=text],
+        select,
+        textarea {
+            width: 90%;
+            padding: 12px;
+            border: 1px solid hotpink;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical
+        }
+        
+        input[type=submit] {
+            background-color: royalblue;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+            background-color: blue;
+        }
+        
+        .container {
+            border-radius: 5px;
+            background-color: #04AA6D;
+            padding: 20px;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        
+        html {
+            box-sizing: border-box;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+        
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+        
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+        
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #474e5d;
+            color: white;
+        }
+        
+        .container {
+            padding: 0 16px;
+        }
+        
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        .title {
+            color: aqua;
+        }
+        
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        .button:hover {
+            background-color: #555;
+        }
+        
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
