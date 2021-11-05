@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Shop at 49'ers</title>
+    <link href="styles/default.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+    <header>
+        <h1>Coffee Shop at 49'ers</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> &emsp;||&emsp;
+        <a href="about.html">About Us</a> &emsp;||&emsp;
+        <a href="menu.html">Menu</a> &emsp;||&emsp;
+        <a href="gallery.html">Gallery</a> &emsp;||&emsp;
+        <a href="trivia.html">Fun Facts</a>
+    </nav>
+
+    <main>
+        <br>
+        <h2>Homepage</h2>
+        <div class="image_grid">
+            <!--image grid to separate images evenly-->
+            <div class="image_container">
+                <a href="about.html"><img src="data:image/png;base64,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"
+                        height="350" width="400" alt="about us"> </a>
+            </div>
+            <!--closing tag: about-->
+            <div class="image_container">
+                <a href="menu.html"><img src="https://thumbs.dreamstime.com/z/coffee-delicious-menu-cartoon-doodle-style-vector-illustration-coffee-delicious-menu-cartoon-doodle-style-vector-illustration-131546927.jpg" height="350" width="400" alt="menu"> </a>
+            </div>
+            <!--closing tag: menu-->
+            <div class="image_container">
+                <a href="gallery.html"><img src="data:image/png;base64,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"
+                        height="250" width="400" alt="gallery"> </a>
+            </div>
+            <!--closing tag: gallery-->
+            <div class="image_container">
+                <a href="order.html"><img src="https://ih1.redbubble.net/image.962473793.5391/fposter,small,wall_texture,product,750x1000.jpg" height="300" width="200" alt="order"> </a>
+            </div>
+            <!--closing tag: orders-->
+        </div>
+        <!--closing tag: image grid-->
+
+    </main>
+
+    <footer>
+        <br/>
+        <nav>
+            <a href="index.html" target="_blank">Home</a> -
+            <a href="about.html">About Us</a> -
+            <a href="menu.html">Menu</a> -
+            <a href="gallery.html">Gallery</a> -
+            <a href="order.html">Order</a>
+        </nav>
+        <br>
+
+        <p>
+            Page built by Sacred Manticore
+        </p>
+        <a href="https://validator.w3.org/check?uri=referer">
+            <img src="images/htmlButton.gif" width="88" height="31" alt="Link to HTML validator">
+        </a>
+
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="images/cssButton.gif" width="88" height="31" alt="Link to CSS validator">
+        </a>
+    </footer>
+</body>
