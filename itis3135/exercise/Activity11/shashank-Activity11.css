@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 88.5%;
+    width: 653px;
+    margin: 0 auto;
+    padding: 18px 28px;
+}
+
+h1 {
+    font-size: 155%;
+    margin-bottom: .5em;
+}
+
+ul {
+    padding-left: 46px;
+}
+
+li {
+    padding-bottom: .5em;
+}
+
+p {
+    padding-bottom: .5em;
+}
