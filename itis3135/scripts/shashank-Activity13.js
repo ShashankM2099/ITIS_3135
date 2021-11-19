@@ -12,14 +12,6 @@ $(document).ready(function() {
         dataType: "json", // changed from xml to json
         success: function(data) {
             $("#team").html("");
-            // XML
-            // $(data).find("management").children().each(function() {
-            //    var xmlDoc = $(this);
-            //    $("#team").append
-            //    ("<h3>" + xmlDoc.find("name").text() + "</h3>" +
-            //          xmlDoc.find("title").text() + "<br>" +
-            //            xmlDoc.find("bio").text() + "<br>");
-            //});
             $.each(data, function() {
                 $.each(this, function(key, value) {
                     $('#team').append(
