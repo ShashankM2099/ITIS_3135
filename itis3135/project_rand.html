@@ -8,7 +8,7 @@
     <title>ITIS:3135 Shashank's Design for Proposed Projekt
     </title>
     <link rel="stylesheet" href="styles/default.css">
-    <script src="projectCSS.js"></script>
+    <!-- <script src="projectCSS.js"></script> -->
 
 </head>
 
@@ -26,100 +26,97 @@
                     <li>
                         <a href="first-script.html">Script</a></li>
                     <li><a href="naming_polygon.html">Try a Polygon</a></li>
-
                     <li><a href="arrays.html">Try with Arrays</a></li>
-
-
                     <li><a href="introduction.html">About Me!!</a></li>
                 </ul>
             </nav>
-
         </header>
         <br>
         <p>
-            <br>---Application Overview:--- </p>
-        <p>The purpose of this application is for beginners to understand the purpose of JavaScript.The primary purpose of this website for people to understand coding. There are no inteneded audiences
-            <br>Anyone can learn JavaScript, anyone anywhere anytime.</p>
-        <hr>
-        <p>Client Information:
-            <br> Name: Jill Valentine
-            <br> Organization: Lowe's Corporate
-            <br> E-Mail: [Private]
-            <br>PhoneNumber: [Confidential]
+
             <hr>
+            <p>Client Information:
+                <br> Name: Jill Valentine
+                <br> Organization: Lowe's Corporate
+                <br> E-Mail: [Private]
+                <br>PhoneNumber: [Confidential]
+                <hr>
+                <img src="images/js.png" alt="Image of JS" style="float: left;" width="100">
+                <img src="images/js.png" alt="Image of JS" style="float: right; " width="100">
+                <h2>JavaScript Basics</h2>
+                <button class="accordion">Application Overview</button>
+                <div class="panel">
+                    <p>The purpose of this application is for beginners to understand the purpose of JavaScript.The primary purpose of this website for people to understand coding. There are no inteneded audiences
+                    </p>
+                </div>
+                <button class="accordion">Why do you wish to learn JavaScript????</button>
 
-            <img src="images/js.png" alt="Image of JS" style="float: left;" width="100">
-            <img src="images/js.png" alt="Image of JS" style="float: right; " width="100">
-            <h2>JavaScript Basics</h2>
+                <div class="panel">
+                    <p>JavaScript ("JS " for short) is a full-fledged dynamic programming language that can add interactivity to a website. It was invented by Brendan Eich (co-founder of the Mozilla project, the Mozilla Foundation, and the Mozilla Corporation).
+                        JavaScript is versatile and beginner-friendly. With more experience, you'll be able to create games, animated 2D and 3D graphics, comprehensive database-driven apps, and much more!</p>
+                    <p>JavaScript itself is relatively compact, yet very flexible. Developers have written a variety of tools on top of the core JavaScript language, unlocking a vast amount of functionality with minimum effort. These include:
+                    </p>
+                </div>
 
-            <button class="accordion">Why do you wish to learn JavaScript????</button>
-            <div class="panel">
-                <p>JavaScript ("JS " for short) is a full-fledged dynamic programming language that can add interactivity to a website. It was invented by Brendan Eich (co-founder of the Mozilla project, the Mozilla Foundation, and the Mozilla Corporation).
-                    JavaScript is versatile and beginner-friendly. With more experience, you'll be able to create games, animated 2D and 3D graphics, comprehensive database-driven apps, and much more!</p>
-                <p>JavaScript itself is relatively compact, yet very flexible. Developers have written a variety of tools on top of the core JavaScript language, unlocking a vast amount of functionality with minimum effort. These include:
-                </p>
-            </div>
+                <button class="accordion">Different Styles</button>
+                <div class="panel">
+                    <p>Browser Application Programming Interfaces (APIs) built into web browsers, providing functionality such as dynamically creating HTML and setting CSS styles; collecting and manipulating a video stream from a user's webcam, or generating
+                        3D graphics and audio samples.
+                    </p>
+                    <p>Third-party APIs that allow developers to incorporate functionality in sites from other content providers, such as Twitter or Facebook.Third-party frameworks and libraries that you can apply to HTML to accelerate the work of building
+                        sites and applications.
+                    </p>
+                </div>
 
-            <button class="accordion">Different Styles</button>
-            <div class="panel">
-                <p>Browser Application Programming Interfaces (APIs) built into web browsers, providing functionality such as dynamically creating HTML and setting CSS styles; collecting and manipulating a video stream from a user's webcam, or generating
-                    3D graphics and audio samples.
-                </p>
-                <p>Third-party APIs that allow developers to incorporate functionality in sites from other content providers, such as Twitter or Facebook.Third-party frameworks and libraries that you can apply to HTML to accelerate the work of building sites
-                    and applications.
-                </p>
-            </div>
-
-            <button class="accordion">Simple--but neat
-                <em>Hello World!!! Example</button>
-            <div class="panel">
-                <p>JavaScript is one of the most popular modern web technologies! As your JavaScript skills grow, your websites will enter a new dimension of power and creativity.</p>
-                <p>However, getting comfortable with JavaScript is more challenging than getting comfortable with HTML and CSS. You may have to start small, and progress gradually.</p>
-                <ol>
-                    <li>Go to your test site and create a new folder named scripts. Within the scripts folder, create a new file called <strong>main.js,</strong> and save it.</li>
-                    <li>In your <strong>index.html</strong> file, enter this code on a new line, just before the closing<strong> body tag</strong></li>
-                    <li>This is doing the same job as the element for CSS. It applies the JavaScript to the page, so it can have an effect on the HTML (along with the CSS, and anything else on the page).</li>
-                    <li>Add this code to the main.js file:
-                        <p>const myHeading = document.querySelector('h1');
-                            <br> myHeading.textContent = 'Hello world!';</p>
-                    </li>
-                </ol>
-                <h3>SO you noticed something must have changed..something happened...</h3>
-                <h3>What really happened????</h3>
-                <p>The heading text changed to Hello world! using JavaScript. You did this by using a function called querySelector() to grab a reference to your heading, and then store it in a variable called myHeading. This is similar to what we did using
-                    CSS selectors. When you want to do something to an element, you need to select it first.
-                </p>
-            </div>
-
-
-            <p>If you really want to know how JavaScript works you can check my buttons I made using JavaScript.
-                <br>
-                <button onclick="askUser()">Tap ME!</button>
-                <button onclick="askHow()">Ask for User</button>
-                <button onclick="funny()">Provide an Insult</button>
-                <button onclick="addition()">+Add two numbers +</button>
-                <button onclick="tax()">Calculate the Tax </button>
-                <p id="name"></p>
-                <p id="health"></p>
-                <p id="insult"></p>
-                <p id="add"></p>
-                <p id="tax"></p>
-                <script src="scripts/alert.js"></script>
-                <h4>SiteMap</h4>
-                <figure>
-                    <a href="https://drive.google.com/file/d/1Ixnsk8csn5mU67Lwg-x3VBeY5rBi5fA4/view">Click to SiteMap</a>
-                    <figcaption>Link to UNCC Google Drive Sitemap Diagram using draw.io</figcaption>
-                </figure>
-                <figure>
-                    <a href="https://drive.google.com/file/d/1bVMuHVA6bCgbhYX0c1Pd1wpHXYKv_hlP/view">Click to Prototype of WireFrame</a>
-                    <figcaption>Link to UNCC Google Drive WireFrame Diagram using draw.io</figcaption>
-                </figure>
+                <button class="accordion">Simple--but neat
+                    <em>Hello World!!! Example</button>
+                <div class="panel">
+                    <p>JavaScript is one of the most popular modern web technologies! As your JavaScript skills grow, your websites will enter a new dimension of power and creativity.</p>
+                    <p>However, getting comfortable with JavaScript is more challenging than getting comfortable with HTML and CSS. You may have to start small, and progress gradually.</p>
+                    <ol>
+                        <li>Go to your test site and create a new folder named scripts. Within the scripts folder, create a new file called <strong>main.js,</strong> and save it.</li>
+                        <li>In your <strong>index.html</strong> file, enter this code on a new line, just before the closing<strong> body tag</strong></li>
+                        <li>This is doing the same job as the element for CSS. It applies the JavaScript to the page, so it can have an effect on the HTML (along with the CSS, and anything else on the page).</li>
+                        <li>Add this code to the main.js file:
+                            <p>const myHeading = document.querySelector('h1');
+                                <br> myHeading.textContent = 'Hello world!';</p>
+                        </li>
+                    </ol>
+                    <h3>SO you noticed something must have changed..something happened...</h3>
+                    <h3>What really happened????</h3>
+                    <p>The heading text changed to Hello world! using JavaScript. You did this by using a function called querySelector() to grab a reference to your heading, and then store it in a variable called myHeading. This is similar to what we did
+                        using CSS selectors. When you want to do something to an element, you need to select it first.
+                    </p>
+                </div>
+                <p>If you really want to know how JavaScript works you can check my buttons I made using JavaScript.
+                    <br>
+                    <button onclick="askUser()">Tap ME!</button>
+                    <button onclick="askHow()">Ask for User</button>
+                    <button onclick="funny()">Provide an Insult</button>
+                    <button onclick="addition()">+Add two numbers +</button>
+                    <button onclick="tax()">Calculate the Tax </button>
+                    <p id="name"></p>
+                    <p id="health"></p>
+                    <p id="insult"></p>
+                    <p id="add"></p>
+                    <p id="tax"></p>
+                    <script src="scripts/alert.js"></script>
+                    <h4>SiteMap</h4>
+                    <figure>
+                        <a href="https://drive.google.com/file/d/1Ixnsk8csn5mU67Lwg-x3VBeY5rBi5fA4/view">Click to SiteMap</a>
+                        <figcaption>Link to UNCC Google Drive Sitemap Diagram using draw.io</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="https://drive.google.com/file/d/1bVMuHVA6bCgbhYX0c1Pd1wpHXYKv_hlP/view">Click to Prototype of WireFrame</a>
+                        <figcaption>Link to UNCC Google Drive WireFrame Diagram using draw.io</figcaption>
+                    </figure>
 
 
-                <h3>Dynamic Functionality on the Website
-                </h3>
-                <p>This website was made using JS on the <a href=forms.html>Forms</a> Page and ensure the user has valid input, by prompting the user to enter their name, email and number...For their satisfaction and make them more interested to know about
-                    JS
+                    <h3>Dynamic Functionality on the Website
+                    </h3>
+                    <p>This website was made using JS on the <a href=forms.html>Forms</a> Page and ensure the user has valid input, by prompting the user to enter their name, email and number...For their satisfaction and make them more interested to know
+                        about JS
+                    </p>
                 </p>
     </main>
     <footer>
