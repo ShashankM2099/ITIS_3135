@@ -1,4 +1,4 @@
-alert("You are in my domain now");
+//alert("You are in my domain now");
 
 function askUser() {
     var name = prompt("Enter your Name:", "");
@@ -38,6 +38,7 @@ function tax() {
 
     }
 }
+// accordion widget
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -56,3 +57,8 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+// droppable and dragg
+$(function() {
+    $("#drag-1").draggable();
+    $("#drop-1").droppable();
+});
