@@ -62,3 +62,10 @@ $(function() {
     $("#drag-1").draggable();
     $("#drop-1").droppable();
 });
+// sliding panel
+$(document).ready(function() {
+    $("#flip").click(function() {
+        $("#panel").slideDown("slow");
+        //$("#panel").slideUp("slow");
+    });
+});
