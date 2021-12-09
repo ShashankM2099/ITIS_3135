@@ -10,7 +10,7 @@ body {
     margin-top: 30px;
     margin-left: 75px;
     margin-right: 75px;
-    background: linear-gradient(hsl(0, 67%, 47%), hsla(0, 7%, 78%, 0.404), hsl(0, 36%, 71%));
+    background: linear-gradient(hsl(175, 64%, 55%), hsla(0, 7%, 78%, 0.404), hsl(0, 36%, 71%));
     background-size: cover;
 }
 
@@ -18,8 +18,8 @@ h1,
 h2,
 h3 {
     font-family: "Playball";
-    color: white;
-    text-shadow: #000 5px 5px 10px;
+    color: rgb(231, 80, 93);
+    text-shadow: rgba(42, 82, 212, 0.904) 5px 5px 10px;
 }
 
 h2 {
@@ -192,7 +192,7 @@ footer {
 .next,
 .autoplay {
     font-family: 'tacoma';
-    background-color: rgb(128, 4, 0);
+    background-color: rgb(68, 198, 202);
     color: white;
     padding: 15px, 30px;
     text-align: center;
