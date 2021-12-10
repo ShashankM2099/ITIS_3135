@@ -6,7 +6,7 @@ function plusSlides(n) {
     showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
+// Thumbnail image controls--from w3
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
@@ -27,7 +27,7 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
 }
 
-// accordion
+// accordion--source from W3
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -46,7 +46,7 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
-// droppable and dragg
+// droppable and dragg for sliding panel---where can I add this?
 $(function() {
     $("#drag-1").draggable();
     $("#drop-1").droppable();
