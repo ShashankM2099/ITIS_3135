@@ -66,10 +66,22 @@ a:visited {
 
 nav {
     text-align: center;
-    background-color: hsla(140, 75%, 50%, 0.685);
+    background-color: hsla(140, 18%, 93%, 0.685);
     position: relative;
-    /* border: hsla(167, 75%, 50%, 0.329); */
-    /* border-style: dotted; */
+}
+
+nav a:visited {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    width: 190px;
+    background-color: indianred;
+    color: rgb(235, 14, 14);
+}
+
+nav a:hover {
+    background-color: grey;
+    color: white;
 }
 
 header,
