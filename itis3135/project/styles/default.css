@@ -66,10 +66,10 @@ a:visited {
 
 nav {
     text-align: center;
-    background-color: hsla(0, 0%, 0%, 0.685);
+    background-color: hsla(140, 75%, 50%, 0.685);
     position: relative;
-    border: hsla(0, 0%, 100%, 0.329);
-    border-style: solid;
+    /* border: hsla(167, 75%, 50%, 0.329); */
+    /* border-style: dotted; */
 }
 
 header,
@@ -284,16 +284,10 @@ div.desc {
     border-radius: 3px 0 0 3px;
 }
 
-
-/* On hover, add a black background color with a little bit see-through */
-
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
-
-/* Number text (1/3 etc) */
 
 .numbertext {
     color: #f2f2f2;
@@ -302,9 +296,6 @@ div.desc {
     position: absolute;
     top: 0;
 }
-
-
-/* The dots/bullets/indicators */
 
 .dot {
     cursor: pointer;
@@ -321,9 +312,6 @@ div.desc {
 .dot:hover {
     background-color: #717171;
 }
-
-
-/* Fading animation */
 
 .fade {
     -webkit-animation-name: fade;
@@ -362,16 +350,10 @@ div.desc {
     transition: 0.4s;
 }
 
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-
 .active,
 .accordion:hover {
     background-color: #ccc;
 }
-
-
-/* Style the accordion panel. Note: hidden by default */
 
 .panel {
     padding: 0 18px;
